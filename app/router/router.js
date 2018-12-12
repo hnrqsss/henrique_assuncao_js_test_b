@@ -4,17 +4,34 @@ const Router = Backbone.Router.extend({
         'clinic/:id': 'clinicDetais'
     },
 
-    index: function() {
+    fetchClinics: async function() {
         
         const clinics = new Clinics()
-    
-        clinics.fetch()
-            .then(res => {
-                const clinicsView = new ClinicsView({ collection: clinics })
-            })
+        
+        const response = await clinics.fetch()
+        
+        this.fetchedClinics = await response
+
+        clinics.reset(this.fetchedClinics)
+        
+        return clinics
     },
 
-    clinicDetais: function() {
+    index: function() {
+        
+        this.fetchClinics()
+                .then(clinics => {
+                    new ClinicsView({ collection: clinics })                 
+                })
+    },
+
+    clinicDetais: function(id) {
+        
+        this.fetchClinics()
+                .then(clinics => {
+                    const clinic = clinics.get(id)
+                    new ClinicView({ collection: clinic })
+                })
 
     }
 })

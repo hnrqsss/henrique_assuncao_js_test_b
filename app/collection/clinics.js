@@ -5,5 +5,9 @@ const Clinics = Backbone.Collection.extend({
 
     initialize: function() {
         
+    },
+
+    navigateToClinic: function(id) {
+        console.log(id)
     }
 })

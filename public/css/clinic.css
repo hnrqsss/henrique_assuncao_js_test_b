@@ -1,0 +1,8 @@
+.clinic-item img {
+    width: 80%;
+}
+
+.clinic-item p {
+    text-align: justify;
+    padding: 10px 2px;
+}
