@@ -1,6 +1,6 @@
 const utils = {
     
-    reduceText: (str, maxSize = 40) => {
+    reduceText: (str, maxSize = 90) => {
         if(str.length <= maxSize)
             return str
 

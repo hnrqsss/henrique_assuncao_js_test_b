@@ -15,17 +15,31 @@
 </head>
 <body>
     
-    <div class="clinics">
+    <nav class="navbar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-9">
+                <div class="col">
+                    <a class="navbar-brand" href="#">PETS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="clinics">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-10">
                     <div class="clinics-content">
-                        clinicas
+                        <ul id="clinic-list"></ul>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-2">
                     <div class="sidebar">
-                        sidebar
+                        <form>
+                            <div class="form-group">
+                                <label for="searc"></label>
+                                <input id="search" type="text" name="search" placeholder="Search" class="form-control"/>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -46,6 +60,9 @@
     
     <!-- backbone sctructure -->
     <script src="./app/model/clinic.js"></script>
+    <script src="./app/view/clinics.js"></script>
     <script src="./app/collection/clinics.js"></script>
+    <script src="./app/app.js"></script>
+
 </body>
 </html>

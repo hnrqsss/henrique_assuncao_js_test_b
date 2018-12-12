@@ -1,0 +1,73 @@
+.navbar {
+    background: #004e00;
+}
+
+.navbar a.navbar-brand {
+    color: #FFF;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#clinics {
+    margin: 20px 0px;
+}
+
+#clinic-list {
+    list-style: none;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+#clinic-list li.clinic-list-item {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+    margin: 30px 0;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+#clinic-list li.clinic-list-item img {
+    background: #FFF;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
+    margin-bottom:  20px;
+}
+
+
+#clinic-list li.clinic-list-item:hover {
+    background: rgba(0,0,0,0.1);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+#clinic-list::-webkit-scrollbar {
+    width: 3px;
+    padding: 3px;
+}
+ 
+#clinic-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#clinic-list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+@media (max-width: 601px) {
+    #clinic-list li.clinic-list-item img {
+        width: 80%;
+    }
+
+    #clinic-list li.clinic-list-item {
+        height: 50vh;
+    }
+}

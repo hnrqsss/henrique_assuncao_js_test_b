@@ -3,80 +3,32 @@
         {
             "id": 1,
             "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
+            "description": "A ETAVE Clínica Veterinária está no mercado pet desde XXXX oferecendo a mais completa estrutura de atendimento clínico e cirúrgico em Fortaleza, apoiado por uma excelente estrutura de diagnóstico, em conjunto com uma equipe clínica de excelente formação técnica e humana. Além do atendimento médico 24 horas contamos com uma Loja de Produtos Veterinários, Serviço de Banho e Tosa, Taxi Pet, tudo integrado buscando oferecer praticidade, conforto e qualidade para você e seu animal de estimação.",
+            "logo": "http://etave.com.br/wp-content/uploads/2015/07/logo-etave.png",
             "images": [] 
         },
 
         {
             "id": 2,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
+            "name": "Vetlife",
+            "description": "Fundada em Novembro de 2010, a Vetlife tem crescido a cada dia, cuidando do seu bichinho de estimação de uma maneira especial, mais que medicar damos o amor e carinho que eles merecem, para isso contamos com uma equipe de profissionais altamente qualificados, que ficam a disposição 24 horas por dia para lhe atender em qualquer situação.",
+            "logo": "https://clinicavetlife24hs.files.wordpress.com/2014/09/capa-2-cc3b3pia.jpg",
             "images": [] 
         },
 
         {
             "id": 3,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
+            "name": "CuraPet",
+            "description": "A Clinica Veterinária Curapet foi idealizada pelo médico veterinário Daniel Gomes, sendo inaugurada no dia 21 de junho de 2014 com o propósito de oferecer serviços de qualidade com ótimos preços para o seu bichinho de estimação. Buscamos estabelecer uma relação transparente com os nossos clientes, oferecendo suporte através do atendimento diferenciado e personalizado, considerando sempre a opinião do proprietário no cuidado do seu pet.",
+            "logo": "https://static.wixstatic.com/media/26d616_399c283f8e524874aaaa72983d4cd04b.png/v1/fill/w_354,h_217,al_c,q_80,usm_0.66_1.00_0.01/26d616_399c283f8e524874aaaa72983d4cd04b.webp",
             "images": [] 
         },
 
         {
             "id": 4,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
-            "images": [] 
-        },
-
-        {
-            "id": 5,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
-            "images": [] 
-        },
-
-        {
-            "id": 6,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
-            "images": [] 
-        },
-
-        {
-            "id": 7,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
-            "images": [] 
-        },
-
-        {
-            "id": 8,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
-            "images": [] 
-        },
-
-        {
-            "id": 9,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
-            "images": [] 
-        },
-
-        {
-            "id": 10,
-            "name": "Etave",
-            "description": "blablabla",
-            "logo": "//logolink",
+            "name": "Eu amo animais",
+            "description": "Hospital Veterinário, Pet shop e Centro de Estética: Temos uma infraestrutura completa, que visa oferecer aos nossos queridos clientes o que existe de melhor. Priorizamos em levar para o seu animal de estimação, qualidade, o conforto e muito amor. Afinal, assim como você, nós amamos animais!",
+            "logo": "http://www.euamoanimais.com.br/static/template_itens/images/logo.jpg",
             "images": [] 
         }
     ]
