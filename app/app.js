@@ -1,10 +1,8 @@
 window.onload = () => {
     
-    const clinics = new Clinics()
+    const router = new Router()
+
+    Backbone.history.start()
     
-    clinics.fetch()
-        .then(res => {
-            const clinicsView = new ClinicsView({ collection: clinics })
-        })
 } 
 

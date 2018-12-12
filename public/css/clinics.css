@@ -1,16 +1,3 @@
-.navbar {
-    background: #004e00;
-}
-
-.navbar a.navbar-brand {
-    color: #FFF;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 #clinics {
     margin: 20px 0px;
 }
@@ -19,6 +6,8 @@ ul {
     list-style: none;
     overflow-y: scroll;
     height: 80vh;
+    width: 100%;
+    padding-right: 10px;
 }
 
 #clinic-list li.clinic-list-item {
@@ -29,6 +18,12 @@ ul {
     flex-direction: column;
     padding: 10px 0 10px 20px;
     border: 1px solid rgba(0,0,0,0.2);
+}
+
+#clinic-list li.clinic-list-item .clinic-name {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #555;
 }
 
 #clinic-list li.clinic-list-item img {

@@ -10,11 +10,11 @@ const ClinicsView = Backbone.View.extend({
         
         const listElement = this.el
 
-        const listClinics = this.collection.map(({attributes}) => (`
+        const listClinics = this.collection.map(clinic => (`
             <li class="clinic-list-item" >
-                <h2 class='clinic-name'>${attributes.name}</h2>
-                <img src="${attributes.logo}" />
-                <p class="clinic-short-description">${attributes.shortDescription}</p>
+                <h2 class='clinic-name'>${clinic.attributes.name}</h2>
+                <img src="${clinic.attributes.logo}" />
+                <p class="clinic-short-description">${clinic.attributes.shortDescription}</p>
             </li>
         `)).join('')
 
