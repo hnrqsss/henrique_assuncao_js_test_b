@@ -14,7 +14,3 @@ const Clinic = Backbone.Model.extend({
             this.set({shortDescription: utils.reduceText(clinic.description)})
     }
 })
-
-const clinic = new Clinic(test)
-
-console.log(clinic.attributes)
