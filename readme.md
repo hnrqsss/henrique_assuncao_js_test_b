@@ -14,5 +14,5 @@
     logo: link of logo image,
     images: array of image's link
 }
-```
+````
 
